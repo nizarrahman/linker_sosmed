@@ -19,7 +19,7 @@ export default function LoginPage() {
   return (
     <>
       <Metadata
-        title="Yazzlinker"
+        title="Nizlinker"
         canonical={process.env.NEXT_PUBLIC_SITE_URL}
         openGraph={{
           url: process.env.NEXT_PUBLIC_SITE_URL,
@@ -29,7 +29,7 @@ export default function LoginPage() {
               url: "/images/seoimage.jpg",
               width: 800,
               height: 800,
-              alt: "Create your own yazzlinker",
+              alt: "Create your own Nizlinker",
             },
           ],
         }}
