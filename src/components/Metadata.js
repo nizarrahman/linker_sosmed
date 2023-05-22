@@ -8,7 +8,7 @@ export default function Metadata(props) {
   if (props.user) {
     icon = props.user.data().photoURL;
     dataProps = {
-      title: `${props.user.data().profile_title} | Yazz Linker`,
+      title: `${props.user.data().profile_title} | Niz Linker`,
       description: "Share all your social media in one link!",
       canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/u/${
         props.user.data().username
