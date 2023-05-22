@@ -11,8 +11,8 @@ export default function Watermark({ appearance }) {
       className="text-sm flex items-center justify-center gap-2 font-semibold backdrop-blur-sm py-2 rounded"
     >
       <InstagramFilled /> Follow the owner : {" "}
-      <a href=" https://www.instagram.com/yazz_803/" className="hover:text-white transition-all" target="_blank">
-        Yazid Akbar
+      <a href=" https://instagram.com/nizarrrahman.f_" className="hover:text-white transition-all" target="_blank">
+        Nizar Rahman
       </a>
     </div>
   );
